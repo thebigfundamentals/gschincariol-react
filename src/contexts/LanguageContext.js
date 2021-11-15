@@ -5,7 +5,8 @@ const LanguageContext = createContext();
 function LanguageProvider(props){
     const [language, setIsLanguage] = useState('pt');
     const changeLanguage = (lang) => {
-        setIsLanguage(lang)
+        setIsLanguage(lang);
+        sessionStorage.setItem('language_gsc', lang);
     };
     const checkStorage = () => {
         const lang = navigator.language;

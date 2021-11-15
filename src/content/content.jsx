@@ -387,7 +387,7 @@ const content = {
                     <input type="hidden" name="_captcha" value="false" />
                     <input type="hidden" name="_subject" value="Nova mensagem enviada pelo site gschincariol.com" />
                     <input type="hidden" name="_template" value="box" />
-                    <input type="hidden" name="_next" value="https://www.gschincariol.com/thanks.html" />
+                    <input type="hidden" name="_next" value="https://www.gschincariol.com/thanks" />
                     <button type="submit" className="btn btn-sm btn-danger btn-block w-100">Submit</button>
                 </form>
             </div>
