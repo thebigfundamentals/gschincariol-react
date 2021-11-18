@@ -1,4 +1,4 @@
-.App {
+.Container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,19 +6,29 @@
   min-height: 100vh;
 }
 
-.lang .lang-selector {
+.selector .lang-selector {
   text-decoration: none;
   color: #6b705c;
   transition: all 0.2s;
 }
 
-.lang .lang-selector:hover {
+.selector .lang-selector:hover {
   color: #a5a58d !important;
   cursor: pointer;
 }
 
-.lang .lang-selected {
+.selector .lang-selected {
   font-weight: bold;
+}
+
+.light-selector i {
+  color: #f07167;
+  font-size: 1.5em;
+}
+
+.light-selector i:hover {
+  color: #e63946;
+  cursor: pointer;
 }
 
 header h1 {

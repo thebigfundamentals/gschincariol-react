@@ -1,5 +1,7 @@
+import { DarkModeProvider } from './contexts/DarkModeContext';
+import Container from './Container';
 import Navbar from './Navbar';
-import LangSelector from './LangSelector';
+import Selector from './Selector';
 import Footer from './Footer';
 import Error404 from './Error404';
 import Home from './Home';
@@ -17,8 +19,10 @@ function App() {
   return (
     <LanguageProvider>
     <SpinnerProvider>
+    <DarkModeProvider>
     <div className="App">
-      <LangSelector />
+      <Container>
+      <Selector />
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home/>} />
@@ -30,7 +34,9 @@ function App() {
         <Route path="*" element={<Error404/>} />
       </Routes>
       <Footer />
+      </Container>
     </div>
+    </DarkModeProvider>
     </SpinnerProvider>
     </LanguageProvider>
   );

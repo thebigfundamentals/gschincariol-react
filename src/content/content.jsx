@@ -1,4 +1,10 @@
 import { NavLink, Link } from "react-router-dom";
+const hrStyle = {
+    border: "0",
+    height: '3px',
+    backgroundImage: 'linear-gradient(to right, rgba(189, 189, 189, 0), rgba(189, 189, 189, 0.75), rgba(189, 189, 189, 0))',
+    backgroundColor: 'inherit'
+}
 
 const content = {
     pt: {
@@ -23,11 +29,11 @@ const content = {
                     </NavLink>
                 </div>
             </nav>
-            <hr />
+            <hr style={hrStyle} />
             <div className="newsletter-header">
                 <Link to="/newsletter"><h5>newsletter <i>Eu posso estar errado</i></h5></Link>
             </div>
-            <hr />
+            <hr style={hrStyle} />
         </div>,
         home: {
             main: <div><h5>Quem sou eu?</h5>
