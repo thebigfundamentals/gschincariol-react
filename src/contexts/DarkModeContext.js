@@ -7,10 +7,10 @@ function DarkModeProvider(props){
     const toggleDarkMode = () => {
         setDarkMode(!darkMode);
         // the logic is reversed because setDarkMode is async, and there is no callback with hooks
-        darkMode ? sessionStorage.setItem('theme_gsc', 'light') : sessionStorage.setItem('theme_gsc', 'dark');
+        darkMode ? localStorage.setItem('theme_gsc', 'light') : localStorage.setItem('theme_gsc', 'dark');
     };
     useEffect(() => {
-        const theme = sessionStorage.getItem('theme_gsc');
+        const theme = localStorage.getItem('theme_gsc');
         if(theme === 'dark'){
             setDarkMode(true);
         } else if(theme === 'light'){
