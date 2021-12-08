@@ -13,7 +13,7 @@ function Selector() {
     }
     return (
         <div className="d-flex"
-            style={{ width: '100%', margin: '0 auto' }}>
+            style={{ width: '100%', marginTop: '1em' }}>
             <div className="selector light-selector me-auto ms-4">
                 <i class={darkMode ? `fas fa-lightbulb` : `far fa-lightbulb`} onClick={handleLightMode} />
             </div>

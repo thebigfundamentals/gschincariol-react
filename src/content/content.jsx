@@ -41,7 +41,7 @@ const content = {
                 Estudei na <b>Escola Preparatória de Cadetes-do-Ar</b>, em Barbacena, onde comecei a escrever com maior
                 frequência, como contraponto ao estrito regime militar. Sou formado na Faculdade de Direito da
                 Universidade de São Paulo, mas não sou advogado. Apesar da ocupação distinta no imposto de renda, sou
-                <b>escritor</b>. Em 2014 fui premiado na 4ª edição da Olimpíada de Língua Portuguesa com o artigo de
+                <b> escritor</b>. Em 2014 fui premiado na 4ª edição da Olimpíada de Língua Portuguesa com o artigo de
                 opinião <b>O passado que não passou</b>. Em 2019 venci, na categoria texto, o concurso <b>Nascente</b>,
                 maior concurso cultural da USP, com a coletânea de contos <a
                     href="https://www.amazon.com.br/HIST%C3%93RIA-DOS-HOMENS-contos-come%C3%A7o-ebook/dp/B08BC2P2D2">A
@@ -238,11 +238,11 @@ const content = {
                     </NavLink>
                 </div>
             </nav>
-            <hr />
+            <hr style={hrStyle} />
             <div className="newsletter-header">
                 <Link to="/newsletter"><h5>newsletter <i>Eu posso estar errado</i></h5></Link>
             </div>
-            <hr />
+            <hr style={hrStyle} />
         </div>,
         home: {
             main: <div><h5>Who am I?</h5>
