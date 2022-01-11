@@ -57,7 +57,7 @@ function Home() {
         <div className="content col-md-8 col-10 d-flex flex-column align-items-center justify-content-center">
             <div className="contentText d-flex justify-content-center flex-column flex-md-row mt-2">
                 <div className="contentLeft col-md-5 me-md-2">
-                    <img src="images/bio.jpeg" className="bioImg img-fluid float-start p-1 me-2 align-text-center" alt="" />
+                    <img src="images/bio.jpg" className="bioImg img-fluid float-start p-1 me-2 align-text-center" alt="" />
                     {content[language].home.main}
                 </div>
                 <div className="contentRight col-md-5 ms-md-2 mt-2 mt-md-0">

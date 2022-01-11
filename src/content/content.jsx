@@ -31,7 +31,8 @@ const content = {
             </nav>
             <hr style={hrStyle} />
             <div className="newsletter-header">
-                <Link to="/newsletter"><h5>newsletter <i>Eu posso estar errado</i></h5></Link>
+                <Link to="/newsletter"><h5>newsletters <i>Eu posso estar errado</i></h5></Link>
+                <a href="https://www.amazon.com.br/sob-Gabriel-Schincariol-Cavalcante-ebook/dp/B09P9T8LYW/ref=sr_1_1?keywords=gabriel+schincariol+cavalcante&qid=1641833920&sprefix=gabriel+schinc%2Caps%2C249&sr=8-1"><h5>eBook <i>sob</i></h5></a>
             </div>
             <hr style={hrStyle} />
         </div>,
@@ -108,6 +109,7 @@ const content = {
                         href="https://www.amazon.com.br/gp/product/B08R5B7Z85/ref=dbs_a_def_rwt_bibl_vppi_i2">A
                         solidão de Samir Fausto na história de acontecimentos ordinários</a></li>
                 </ul>
+                <p>Em janeiro de 2022, publiquei também em formato de eBook o conto <i>sob</i>. <a href="https://www.amazon.com.br/sob-Gabriel-Schincariol-Cavalcante-ebook/dp/B09P9T8LYW/ref=sr_1_1?keywords=gabriel+schincariol+cavalcante&qid=1641833920&sprefix=gabriel+schinc%2Caps%2C249&sr=8-1">Ele pode ser comprado clicando aqui.</a></p>
                 <p>Em 2021 tive meu primeiro livro publicado, <a
                     href="https://www.editorapatua.com.br/produto/243131/um-mundo-em-que-existem-baleias-de-gabriel-schincariol-cavalcante">Um
                     mundo em que existem baleias</a>, pela Editora Patuá. É um livro de contos sobre o universo
@@ -240,7 +242,8 @@ const content = {
             </nav>
             <hr style={hrStyle} />
             <div className="newsletter-header">
-                <Link to="/newsletter"><h5>newsletter <i>Eu posso estar errado</i></h5></Link>
+                <Link to="/newsletter"><h5>newsletters <i>Eu posso estar errado</i></h5></Link>
+                <a href="https://www.amazon.com.br/sob-Gabriel-Schincariol-Cavalcante-ebook/dp/B09P9T8LYW/ref=sr_1_1?keywords=gabriel+schincariol+cavalcante&qid=1641833920&sprefix=gabriel+schinc%2Caps%2C249&sr=8-1"><h5>eBook <i>sob</i></h5></a>
             </div>
             <hr style={hrStyle} />
         </div>,
@@ -303,6 +306,7 @@ const content = {
                     <li><a href="https://www.amazon.com.br/gp/product/B08R5B7Z85/ref=dbs_a_def_rwt_bibl_vppi_i2">A
                         solidão de Samir Fausto na história de acontecimentos ordinários</a></li>
                 </ul>
+                <p>In january 2022, I published a new short-story called <i>sob</i>. <a href="https://www.amazon.com.br/sob-Gabriel-Schincariol-Cavalcante-ebook/dp/B09P9T8LYW/ref=sr_1_1?keywords=gabriel+schincariol+cavalcante&qid=1641833920&sprefix=gabriel+schinc%2Caps%2C249&sr=8-1">You can buy and read it here.</a></p>
                 <p>My first book was published in 2021, <a
                     href="https://www.editorapatua.com.br/produto/243131/um-mundo-em-que-existem-baleias-de-gabriel-schincariol-cavalcante">Um
                     mundo em que existem baleias <i>(A World With Whales</i></a>, by Patuá, an indie publisher from
